@@ -40,6 +40,8 @@ El objetivo de este proyecto es adquirir experiencia práctica en administració
 
 En una primera fase, el acceso remoto se configuró mediante redirección de puertos en el router. Posteriormente, se modificó la arquitectura para evitar exponer el servicio SSH directamente a Internet.
 
+**Acceso remoto mediante SSH**
+![Acceso remoto al servidor Ubuntu mediante SSH](screenshots/02-acceso-remoto-ssh.png)
 Las medidas de seguridad documentadas en la configuración actual incluyen:
 
 - Eliminación de la redirección de puertos SSH en el router.
