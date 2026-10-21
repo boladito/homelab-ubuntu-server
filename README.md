@@ -50,16 +50,17 @@ Las medidas de seguridad documentadas en la configuración actual incluyen:
 - Uso de Fail2Ban para gestionar intentos de autenticación fallidos.
 - Copias de seguridad de los archivos de configuración antes de modificarlos.
 
-  **Acceso remoto mediante SSH**
+**Acceso remoto mediante SSH**
 ![Acceso remoto al servidor Ubuntu mediante SSH](screenshots/02-acceso-remoto-ssh.png)
 
-  **Configuración del firewall UFW**
+**Configuración del firewall UFW**
+
 ![Reglas del firewall UFW](screenshots/03-firewall.png)
 
-  **Endurecimiento de SSH**
+**Endurecimiento de SSH**
 ![Configuración de autenticación SSH](screenshots/04-ssh-hardenind.png)
 
-  **VPN Tailscale**
+**VPN Tailscale**
 ![Estado de los dispositivos de Tailscale](screenshots/05-tailscale-vpn.png)
 
 ## Objetivos de aprendizaje
