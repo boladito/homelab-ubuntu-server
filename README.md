@@ -54,10 +54,10 @@ Las medidas de seguridad documentadas en la configuración actual incluyen:
 ![Acceso remoto al servidor Ubuntu mediante SSH](screenshots/02-acceso-remoto-ssh.png)
 
   **Configuración del firewall UFW**
-![Reglas del firewall UFW](screenshots/03-firewall-ufw.png)
+![Reglas del firewall UFW](screenshots/03-firewall.png)
 
   **Endurecimiento de SSH**
-![Configuración de autenticación SSH](screenshots/04-ssh-hardening.png)
+![Configuración de autenticación SSH](screenshots/04-ssh-hardenind.png)
 
   **VPN Tailscale**
 ![Estado de los dispositivos de Tailscale](screenshots/05-tailscale-vpn.png)
