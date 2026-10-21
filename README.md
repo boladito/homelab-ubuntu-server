@@ -40,8 +40,6 @@ El objetivo de este proyecto es adquirir experiencia práctica en administració
 
 En una primera fase, el acceso remoto se configuró mediante redirección de puertos en el router. Posteriormente, se modificó la arquitectura para evitar exponer el servicio SSH directamente a Internet.
 
-**Acceso remoto mediante SSH**
-![Acceso remoto al servidor Ubuntu mediante SSH](screenshots/02-acceso-remoto-ssh.png)
 Las medidas de seguridad documentadas en la configuración actual incluyen:
 
 - Eliminación de la redirección de puertos SSH en el router.
@@ -51,6 +49,18 @@ Las medidas de seguridad documentadas en la configuración actual incluyen:
 - Configuración de UFW para restringir el tráfico entrante.
 - Uso de Fail2Ban para gestionar intentos de autenticación fallidos.
 - Copias de seguridad de los archivos de configuración antes de modificarlos.
+
+  **Acceso remoto mediante SSH**
+![Acceso remoto al servidor Ubuntu mediante SSH](screenshots/02-acceso-remoto-ssh.png)
+
+  **Configuración del firewall UFW**
+![Reglas del firewall UFW](screenshots/03-firewall-ufw.png)
+
+  **Endurecimiento de SSH**
+![Configuración de autenticación SSH](screenshots/04-ssh-hardening.png)
+
+  **VPN Tailscale**
+![Estado de los dispositivos de Tailscale](screenshots/05-tailscale-vpn.png)
 
 ## Objetivos de aprendizaje
 
