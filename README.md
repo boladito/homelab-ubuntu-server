@@ -13,6 +13,9 @@ El objetivo de este proyecto es adquirir experiencia práctica en administració
 - **Sistema operativo:** Ubuntu Server 24.04 LTS
 - **Administración:** Interfaz de línea de comandos (CLI)
 
+**Sistema y recursos (Captura)**
+![Sistema Ubuntu Server y recursos del laboratorio](screenshots/01-sistema-recursos-red.png)
+
 ## Dispositivo móvil
 
 - **Dispositivo:** Google Pixel 7a.
