@@ -24,20 +24,18 @@ La arquitectura permite administrar el servidor tanto desde la red doméstica co
     | Windows 11        |    | GrapheneOS        |
     +---------+---------+    +---------+---------+
               |                        |
-              | SSH                    | SSH
+     Conexión | SSH           Conexión | SSH
               |                        |
               +-----------+------------+
                           |
                  +--------v--------+
                  |                 |
                  |  Ubuntu Server  |
-                 |                 |
-                 |  Servidor       |
-                 |  del laboratorio|
+                 |       SSH       |
+                 |    Servicios    |
+                 | del laboratorio |
                  +-----------------+
-                          |
-                 Servicios del lab
-```
+                 ```
 
 El esquema representa los dispositivos que participan en la administración del laboratorio. Las conexiones pueden establecerse a través de la red local o mediante Tailscale, según la ubicación del dispositivo cliente.
 
